@@ -7,6 +7,7 @@
         <script src="main.js"></script>
     </head>
     <body>
+            <div class="container">
             <ul style="text-align:center" class="menu">
             <li class="link"><a href="#Bem-vindo">início</a></li>
             <li class="link"><a href='#Fotos'>fotos</a></li>
@@ -45,9 +46,26 @@
             <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/dcVXdiL2CaUtQ414TaMzyt6ONaO8Efis7L6VWEaVrnO/embed?nosource"></iframe>
         </section>
         <section id="Games">
-            <h2>Games</h2>
-            <a href="https://studio.code.org/projects/gamelab/FkPgLNOsy8zIVv7osyWurcQ-SpPx-ZD2mTw1Fi6LKEo"><img src></a>
+            <h2>Games</h2> 
+            <div id='corosel' class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="item active"> 
+            <a href="https://studio.code.org/projects/gamelab/FkPgLNOsy8zIVv7osyWurcQ-SpPx-ZD2mTw1Fi6LKEo"><img src='thumbnail.png'></a>
+            <p>Jogo do astronauta</p>
+            </div>
+            <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/tm6bQMOKcOfHFL_lKUbuho2Q8xX628tEzDvg-du7xIM"><img src="thumbnail (1).png"></a>
+            <p>Jogo de corrida</p>
+            </div>
+            <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/2DHHP2kq_GYAlfN9Fwu8_kruXKXyVkrThYSbNwxoyCA"><img src="thumbnail2.png"></a>
+            <p>Jogo de cortar frutas</p>
+            </div>
+            </div>
+            <a class="left carousel-control" href="#corosel" data-slide="anterior"><spam class='glyphicon glyphicon-chevron-left'></spam></a>
+            <a class="right carousel-control" href="#corosel" data-slide="próximo"><spam class='glyphicon glyphicon-chevron-right'></spam></a>
         </section>
+        </div>
         <section id="Chatbot">
             <h2>Chatbot</h2>
             <iframe
